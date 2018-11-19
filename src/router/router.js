@@ -72,7 +72,7 @@ export default [{
     {
       path: '/msite',
       component: msite,
-      meta: {keepAlive: true},
+      meta: {keepAlive: true},//表示需要被缓存
     },
     //特色商铺列表页
     {

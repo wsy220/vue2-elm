@@ -43,6 +43,7 @@
             ]),
         },
         methods: {
+          //在组件中分发action
             ...mapActions([
                 'getUserInfo'
             ]),
